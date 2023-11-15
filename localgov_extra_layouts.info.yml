@@ -1,0 +1,5 @@
+name: "LocalGov Extra Layouts"
+description: "Adds custom layout types for use with Layout Paragraphs or Layout Builder."
+package: "LocalGov"
+type: module
+core_version_requirement: ^9

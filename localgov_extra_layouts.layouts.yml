@@ -1,0 +1,64 @@
+two_col_66_33:
+  label: 'LocalGov Two columns (2/3 + 1/3)'
+  template: templates/two-col/two-col-66-33
+  library: localgov_extra_layouts/two_col_66_33
+  category: 'LocalGov Layouts'
+  default_region: first
+  icon_map:
+    - [first, second] 
+  regions:
+    first:
+      label: 'First'
+    second:
+      label: 'Second'
+
+two_col_33_66:
+  label: 'LocalGov Two columns (1/3 + 2/3)'
+  template: templates/two-col/two-col-33-66
+  library: localgov_extra_layouts/two_col_33_66
+  category: 'LocalGov Layouts'
+  default_region: first
+  icon_map:
+    - [first, second] 
+  regions:
+    first:
+      label: 'First'
+    second:
+      label: 'Second'
+
+two_col_2x2:
+  label: 'LocalGov Two columns (1/2 + 1/2 by 1/2 + 1/2)'
+  template: templates/two-col-2x2/two-col-2x2
+  library: localgov_extra_layouts/two_col_2x2
+  category: 'LocalGov Layouts'
+  default_region: first
+  icon_map:
+    - [first, second] 
+    - [third, fourth]
+  regions:
+    first:
+      label: 'First'
+    second:
+      label: 'Second'
+    third:
+      label: 'Third'
+    fourth:
+      label: 'Fourth'
+
+four_col_25_25_25_25:
+  label: 'LocalGov Four columns (1/4 + 1/4 + 1/4 + 1/4)'
+  template: templates/four-col/four-col-25-25-25-25
+  library: localgov_extra_layouts/four_col_25_25_25_25
+  category: 'LocalGov Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth]
+  regions:
+    first:
+      label: 'First'
+    second:
+      label: 'Second'
+    third:
+      label: 'Third'
+    fourth:
+      label: 'Fourth'

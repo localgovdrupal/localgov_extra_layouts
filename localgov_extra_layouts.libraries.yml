@@ -1,0 +1,19 @@
+four_col_25_25_25_25:
+  css:
+    theme:
+      templates/four-col/four-col.css: {}
+
+two_col_2x2:
+  css:
+    theme:
+      templates/two-col-2x2/two-col-2x2.css: {}
+
+two_col_33_66:
+  css:
+    theme:
+      templates/two-col/two-col.css: {}
+
+two_col_66_33:
+  css:
+    theme:
+      templates/two-col/two-col.css: {}
