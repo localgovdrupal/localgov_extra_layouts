@@ -5,7 +5,7 @@ two_col_66_33:
   category: 'LocalGov Layouts'
   default_region: first
   icon_map:
-    - [first, second] 
+    - [first, second]
   regions:
     first:
       label: 'First'
@@ -19,7 +19,7 @@ two_col_33_66:
   category: 'LocalGov Layouts'
   default_region: first
   icon_map:
-    - [first, second] 
+    - [first, second]
   regions:
     first:
       label: 'First'
@@ -33,7 +33,7 @@ two_col_2x2:
   category: 'LocalGov Layouts'
   default_region: first
   icon_map:
-    - [first, second] 
+    - [first, second]
     - [third, fourth]
   regions:
     first:
@@ -45,20 +45,3 @@ two_col_2x2:
     fourth:
       label: 'Fourth'
 
-four_col_25_25_25_25:
-  label: 'LocalGov Four columns (1/4 + 1/4 + 1/4 + 1/4)'
-  template: templates/four-col/four-col-25-25-25-25
-  library: localgov_extra_layouts/four_col_25_25_25_25
-  category: 'LocalGov Layouts'
-  default_region: first
-  icon_map:
-    - [first, second, third, fourth]
-  regions:
-    first:
-      label: 'First'
-    second:
-      label: 'Second'
-    third:
-      label: 'Third'
-    fourth:
-      label: 'Fourth'
