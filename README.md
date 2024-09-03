@@ -15,5 +15,5 @@ First column is 66% and the second is 33%
 This is a grid-like layout with two 50% width columns. Each of these columns has 2 regions, one on top of the other.
 
 ## Maintainers
-Justine Pocock
-Mark Conroy
+- Justine Pocock
+- Mark Conroy
