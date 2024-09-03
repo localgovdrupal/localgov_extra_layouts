@@ -1,11 +1,13 @@
 {%
   set classes = [
     'layout',
+    'layout--two-col-2x2',
   ]
 %}
+
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
-    <div class="layout__region--column layout--two-col-2x2">
+    <div class="layout__region-container layout__region-container--first">
       {% if content.first %}
         <div {{ region_attributes.first.addClass('layout__region', 'layout__region--first') }}>
           {{ content.first }}
@@ -18,7 +20,7 @@
         </div>
       {% endif %}
     </div>
-    <div class="layout__region--column layout--two-col-2x2">
+    <div class="layout__region-container layout__region-container--second">
       {% if content.third %}
         <div {{ region_attributes.third.addClass('layout__region', 'layout__region--third') }}>
           {{ content.third }}
